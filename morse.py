@@ -22,6 +22,6 @@ def morse_to_alphabet(morse_code):
     return translated_text.strip()
 
 
-morse_code = '.... . .-.. .-.. ---'
+morse_code = '-. . .-. ---'
 translated_text = morse_to_alphabet(morse_code)
 print(translated_text)
